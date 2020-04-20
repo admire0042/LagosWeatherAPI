@@ -1,0 +1,35 @@
+.jumbotron{
+	background-image: url(../images/ab1.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	color: #eee;
+}
+
+a#menu{
+	text-decoration: none;
+}
+
+#menu span{
+	display: inline-block;
+	font-size: 35px;
+}
+
+#navPanel{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.95);
+	text-align: center;
+	padding: 10% 0 0 0;
+	display: none;
+}
+
+#navPanel ul{
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	font-size: 35px;
+}

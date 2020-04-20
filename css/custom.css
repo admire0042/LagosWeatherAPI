@@ -1,0 +1,55 @@
+.weather-container{
+    background-image:url("../images/clooud2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    margin-top:100px;
+    padding-left:50px;
+    
+    padding-top:10px ;
+    
+    background-size: cover;
+}
+.app-title{
+    font-size:25px;
+    margin-top:50px;
+    text-align:center;
+    font-weight:bold;
+}
+#lagos{
+  font-size:30px; 
+  font-weight:bold; 
+}
+
+#temperature{
+    text-align:center;
+    font-size:30px;
+}
+#description{
+    text-align:center;
+    font-size:20px;
+}
+
+#sunrise,#sunset{
+    margin-bottom:10px;
+}
+@media (max-width:768px){
+    #icon{
+        margin-left:300px;
+        margin-bottom:20px;
+    }
+    .float{
+        display: inline-flex;
+        margin-bottom:20px;
+    }
+    #icon img{
+        width:70px;
+    }
+    #sunrise{
+        margin-right: 10px;
+    }
+    #sunset{
+        margin-right: 10px;
+    }
+   
+}
