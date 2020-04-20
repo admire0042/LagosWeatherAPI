@@ -5,9 +5,8 @@
     color:white;
     margin-top:100px;
     padding-left:50px;
-    
+    width: 200px;
     padding-top:10px ;
-    
     background-size: cover;
 }
 .app-title{
@@ -19,6 +18,7 @@
 #lagos{
   font-size:30px; 
   font-weight:bold; 
+  color:black;
 }
 
 #temperature{
@@ -34,8 +34,14 @@
     margin-bottom:10px;
 }
 @media (max-width:768px){
+
+    .weather-container{
+        width: 500px;
+        height:170vh;
+    }
+
     #icon{
-        margin-left:200px;
+        margin-left:100px;
         margin-bottom:20px;
     }
     .float{

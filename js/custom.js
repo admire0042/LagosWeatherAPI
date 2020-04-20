@@ -32,6 +32,7 @@ $(document).ready(function() {
 		$("#degree").html(`Degree: ${data.wind.deg}`);
 		$("#pressure").html(`Pressure: ${data.main.pressure}Pa`);
 		$("#date").html(`${Days[day]} ${days} ${Months[month]} ${year}`);
+		//$("#icon").html(`<img src="https://api.openweathermap.org/img/w/${data.weather[0].icon}" alt="image"/>`);
 
 		
 	})
